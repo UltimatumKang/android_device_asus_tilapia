@@ -32,4 +32,4 @@ $(call inherit-product, device/asus/grouper/device-common.mk)
 $(call inherit-product-if-exists, vendor/asus/tilapia/device-vendor.mk)
 
 # Inherit some GSM stuff
-$(call inherit-product, vendor/aosp/config/gsm.mk)
+$(call inherit-product, device/asus/tilapia/gsm.mk)
